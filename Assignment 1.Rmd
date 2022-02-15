@@ -1,0 +1,102 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+
+---
+title: "R Notebook"
+output:
+  html_notebook: default
+  html_document:
+    df_print: paged
+editor_options:
+  markdown:
+    wrap: sentence
+---
+
+# BCB420 Assignment 1 Report: Data set selection and initial Processing (Journal Article Title: )
+
+## Part 1: Selecting the Data
+
+if the geo meta sqlite database has not been downloaded, download it
+
+
+## Part 2: Downloading the Data
+
+
+## Part 3: Inspecting Data
+
+
+
+## Part 5: Filtering out Data with low count
+
+
+
+## part 5: Plotting of Data before Normalization
+
+
+
+## Part 6: Normalizing the Data
+
+
+
+## Part 7: Data after Normalization
+
+## Part 9: Dispersion
+
+
+
+## Part 10: Mapping the data
+
+
+## Part 11 interpreting the data
+
+
+
+1.  What are the control and test conditions of the dataset?
+
+ 
+
+2.  Why is the dataset of interest to you?
+
+
+3.  Were there expression values that were not unique for specific genes?
+
+ 
+
+4.  Were there expression values that could not be mapped to current HUGO symbols?
+
+
+5.  How many outliers were removed?
+
+
+6.  How did you handle replicates?
+
+
+
+7.  What is the final coverage of your dataset?
+
+
+## Part 12: Citations
+
+Kruczek, K., Qu, Z., Gentry, J., Fadl, B. R., Gieser, L., Hiriyanna, S., Batz, Z., Samant, M., Samanta, A., Chu, C. J., Campello, L., Brooks, B. P., Wu, Z., & Swaroop, A.
+(2021).
+Gene Therapy of Dominant CRX-Leber Congenital Amaurosis using Patient Stem Cell-Derived Retinal Organoids. 
+*Stem cell reports*, *16*(2), 252--263.
+<https://doi.org/10.1016/j.stemcr.2020.12.018>
+
